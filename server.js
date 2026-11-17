@@ -2,6 +2,8 @@
 // Importer Express
 import express from "express";
 import { afficherRequete } from "./middlewares.js";
+import dotenv from "dotenv";
+dotenv.config();
 
 // Importer les trois routes
 import filmRouter from "./routes/film.js";
