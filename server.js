@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 // Importer les trois routes
-import filmRouter from "./routes/film.js";
+import filmsRouter from "./routes/films.js";
 import seancesRouter from "./routes/seances.js";
 import reservationsRouter from "./routes/reservations.js";
 
@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(afficherRequete);
 
 // Toutes les routes qui commencent par /films
-app.use("/films", filmRouter);
+app.use("/films", filmsRouter);
 
 // Toutes les routes qui commencent par /seances
 app.use("/seances", seancesRouter);
