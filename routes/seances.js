@@ -1,5 +1,5 @@
 // Importer Express
-import express from "express";
+import {Router} from "express";
 import { validerId } from "../middlewares.js";
 
 // Importer les tableaux et les fonctions
@@ -12,7 +12,7 @@ import {
 } from "../data.js";
 
 // Créer le routeur des séances
-const router = express.Router();
+const router = Router();
 
 // 1. POST /seances
 

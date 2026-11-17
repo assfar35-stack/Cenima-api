@@ -1,12 +1,12 @@
 // Importer Express
-import express from "express";
+import {Router} from "express";
 import { validerId } from "../middlewares.js";
 
 // Importer les données des films et des séances
 import { films, seances } from "../data.js";
 
 // Créer le routeur des films
-const router = express.Router();
+const router = Router();
 
 // 1. GET /films
 router.get("/", (req, res) => {
