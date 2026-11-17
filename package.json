@@ -1,7 +1,7 @@
 {
-  "name": "reservation-cenilma",
+  "name": "reservation-cenima",
   "version": "1.0.0",
-  "description": "A simple reservation system for Cenilma",
+  "description": "A simple reservation system for Cenima",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
